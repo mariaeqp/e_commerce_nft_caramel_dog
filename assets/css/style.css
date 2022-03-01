@@ -8290,4 +8290,17 @@ header {
       font-size: 16px;
       color: #343A40; }
 
+footer {
+  background: #343A40; }
+  footer h5 {
+    font-size: 19px;
+    color: #FFF; }
+
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0; } }
+@media (max-width: 767px) {
+  header ul li {
+    margin: 5px; } }
+
 /*# sourceMappingURL=style.css.map */
