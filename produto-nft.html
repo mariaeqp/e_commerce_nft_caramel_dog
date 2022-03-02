@@ -60,7 +60,7 @@
 
     <img src="assets/img/banner.jpeg" class="img-fluid" alt="Responsive image">
 
-    <section class="container">
+    <section class="container-fluid">
         <h3 class="text-center">Mais detalhes sobre a NFT</h3>
         <article class="row produtos-compra">
             <figure class="col-md-3">
@@ -73,13 +73,13 @@
                     <p>Descrição: mochila e capa vermelha com óculos roxo e chapéu de mágico</p>
                 </article>
                 <article class="produto-preco">
-                    <strong>U$ 59,00
+                    <strong id="produto-preco">U$ 59,00
                         <span class="d-block">Pagamento único por criptomoedas e/ou dolar</span>
                     </strong>
                     <form action="#">
                         <div class="form-group">
                             <label for="produtos-quantidade-itens">Selecione a quantidade:</label>
-                            <select class="form-control" id="produtos-quantidade-itens">
+                            <select class="form-control col-md-5" id="produtos-quantidade-itens">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -92,7 +92,9 @@
                                 <option>10</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-success col-md-12">Comprar</button>
+
+                        <a class="btn btn-success col-md-5" href="endereco.html" role="button">Adicionar ao carrinho</a>
+
                     </form>
 
                 </article>
@@ -104,7 +106,7 @@
 
     </section>
 
-    <script src="assets/js/jquery.js"></script>
+    <script src=" assets/js/jquery.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.js"></script>
 </body>
